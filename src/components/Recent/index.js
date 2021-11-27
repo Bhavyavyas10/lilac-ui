@@ -26,8 +26,8 @@ const Recent = () => {
         </div>
       </div>
       <Container fluid style={{ margin: "0px 80px" }}>
-        <Row>
-          <Col sm={2}>
+        <Row style={{ paddingLeft: "150px" }}>
+          <Col sm={2} style={{ padding: "0px 15px 0 0" }}>
             <div style={styles.productContainer}>
               <div>
                 <img src={SmartWatch} alt="Band" style={styles.productImage} />
@@ -41,43 +41,43 @@ const Recent = () => {
               </div>
             </div>
           </Col>
-          <Col sm={2}>
+          <Col sm={2} style={{ padding: "0px 15px 0 0" }}>
             <div style={styles.productContainer}>
               <div>
                 <img src={Xbox} alt="Band" style={styles.productImage} />
               </div>
               <div style={styles.colWidth}>
-                <p style={{ lineHeight: "2.1" }}>Xbox White Joystick</p>
+                <p style={{ lineHeight: "2.19" }}>Xbox White Joystick</p>
                 <p style={styles.productPrice}>$98.4</p>
                 <StarRating />
               </div>
             </div>
           </Col>
-          <Col sm={2}>
+          <Col sm={2} style={{ padding: "0px 15px 0 0" }}>
             <div style={styles.productContainer}>
               <div>
                 <img src={HeadPhone} alt="Band" style={styles.productImage} />
               </div>
               <div style={styles.colWidth}>
-                <p style={{ lineHeight: "3.1" }}>Super Boost Headphones</p>
+                <p style={{ lineHeight: "3.3" }}>Super Boost Headphones</p>
                 <p style={styles.productPrice}>$33.3</p>
                 <StarRating />
               </div>
             </div>
           </Col>
-          <Col sm={2}>
+          <Col sm={2} style={{ padding: "0px 15px 0 0" }}>
             <div style={styles.productContainer}>
               <div>
                 <img src={Shoes} alt="Band" style={styles.productImage} />
               </div>
               <div style={styles.colWidth}>
-                <p style={{ lineHeight: "1.59" }}>X-Ray 2 Square PACK</p>
+                <p style={{ lineHeight: "2.19" }}>X-Ray 2 Square PACK</p>
                 <p style={styles.productPrice}>$33.3</p>
                 <StarRating />
               </div>
             </div>
           </Col>
-          <Col sm={2}>
+          <Col sm={2} style={{ padding: "0px 15px 0 0" }}>
             <div style={styles.productContainer}>
               <div>
                 <img src={Watch} alt="Band" style={styles.productImage} />

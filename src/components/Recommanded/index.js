@@ -166,7 +166,7 @@ const styles = {
     height: "330px",
     width: "170px",
     borderRadius: "5px",
-    margin: "0px 7px",
+    margin: "0px 30px",
   },
   imageContainer: {
     display: "flex",
@@ -201,6 +201,7 @@ const styles = {
   productList: {
     display: "flex",
     flexDirection: "row",
+    marginLeft: "60px",
   },
   bottomSection: {
     display: "flex",

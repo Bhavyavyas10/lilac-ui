@@ -50,7 +50,7 @@ const styles = {
   conatainer: {
     display: "flex",
     alignItems: "center",
-    margin: "30px 280px",
+    margin: "30px 420px",
   },
   image: {
     height: "23px",

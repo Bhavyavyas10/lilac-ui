@@ -6,7 +6,9 @@ const BestDeals = () => {
   return (
     <>
       <DealHeader />
-      <BrandProduct />
+      <div style={{ marginLeft: "150px" }}>
+        <BrandProduct />
+      </div>
     </>
   );
 };

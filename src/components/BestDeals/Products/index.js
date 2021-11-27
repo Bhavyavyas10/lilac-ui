@@ -16,7 +16,7 @@ const BrandProduct = () => {
   return (
     <Container fluid style={styles.container}>
       <Row>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={SmartWatch} alt="Band" style={styles.productImage} />
@@ -28,49 +28,49 @@ const BrandProduct = () => {
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={Xbox} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p style={{ lineHeight: "2.1" }}>Xbox White Joystick</p>
+              <p style={{ lineHeight: "2.4" }}>Xbox White Joystick</p>
               <p style={styles.productPrice}>$98.4</p>
               <StarRating />
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={HeadPhone} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p style={{ lineHeight: "3.1" }}>Super Boost Headphones</p>
+              <p style={{ lineHeight: "2.4" }}>Super Boost Headphones</p>
               <p style={styles.productPrice}>$33.3</p>
               <StarRating />
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={Shoes} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p style={{ lineHeight: "1.59" }}>X-Ray 2 Square PACK</p>
+              <p style={{ lineHeight: "2.4" }}>X-Ray 2 Square PACK</p>
               <p style={styles.productPrice}>$33.3</p>
               <StarRating />
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={Watch} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p style={{ lineHeight: "2.08" }}>AX1326 Automatic Analog</p>
+              <p style={{ lineHeight: "1.6" }}>AX1326 Automatic Analog</p>
               <p style={styles.productPrice}>$33.3</p>
               <StarRating />
             </div>
@@ -78,19 +78,19 @@ const BrandProduct = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={Airpodes} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p style={{ lineHeight: "2.0" }}>Ice White Airpods</p>
+              <p style={{ lineHeight: "2.9" }}>Ice White Airpods</p>
               <p style={styles.productPrice}>$521.3</p>
               <StarRating />
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={Mouse} alt="Band" style={styles.productImage} />
@@ -102,37 +102,37 @@ const BrandProduct = () => {
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={Fridge} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p>LG 260 L 3 Star Frost</p>
+              <p style={{ lineHeight: "2.9" }}>LG 260 L 3 Star Frost</p>
               <p style={styles.productPrice}>$333.3</p>
               <StarRating />
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={Tshirt} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p>Levi's Men's Printed T-Shirt</p>
+              <p style={{ lineHeight: "1.9" }}>Levi's Men's Printed T-Shirt</p>
               <p style={styles.productPrice}>$33.3</p>
               <StarRating />
             </div>
           </div>
         </Col>
-        <Col sm={2}>
+        <Col sm={2} style={{ padding: "0px 20px 0 0" }}>
           <div style={styles.productContainer}>
             <div>
               <img src={PlayStation} alt="Band" style={styles.productImage} />
             </div>
             <div style={styles.colWidth}>
-              <p style={{ lineHeight: "2" }}>SONY PLAYSTATION 5</p>
+              <p style={{ lineHeight: "1.9" }}>SONY PLAYSTATION 5</p>
               <p style={styles.productPrice}>$322.3</p>
               <StarRating />
             </div>

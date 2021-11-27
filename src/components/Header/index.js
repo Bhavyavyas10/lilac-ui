@@ -50,7 +50,7 @@ const styles = {
   content_one: {
     display: "flex",
     alignItems: "center",
-    margin: "0px 150px",
+    margin: "0px 250px",
   },
   content_two: {
     display: "flex",

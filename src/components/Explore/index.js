@@ -10,7 +10,7 @@ import "./style.css";
 const Explore = () => {
   return (
     <div style={styles.container}>
-      <div>
+      <div style={{ margin: "0px 100px" }}>
         <center>
           <h4>
             <b>Classified</b>
@@ -105,7 +105,7 @@ const styles = {
   container: {
     display: "flex",
     alignItems: "center",
-    margin: "40px 280px",
+    margin: "40px 200px",
   },
   mainContainer: {
     display: "flex",
@@ -113,7 +113,7 @@ const styles = {
     height: "270px",
     width: "200px",
     borderRadius: "5px",
-    margin: "0px 25px",
+    margin: "0px 60px",
   },
   imageContainer: {
     display: "flex",
