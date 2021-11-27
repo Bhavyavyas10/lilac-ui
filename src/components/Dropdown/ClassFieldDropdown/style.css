@@ -1,0 +1,14 @@
+.myControlClassName {
+  border: none;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+.myArrowClassName {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
